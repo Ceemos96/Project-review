@@ -1,0 +1,424 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+   
+   
+}
+
+
+.nav-bar
+{
+    display: flex;
+    align-items: center;
+    background-image: url(images/pexels-darius-krause-2228183.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.text
+{
+    color: white;
+    text-align: center;
+    padding: 80px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-transform: capitalize;
+    
+}
+
+.text h1{
+    letter-spacing: 0.6rem;
+    font-size: 7em;
+}
+
+.text p{
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+
+
+
+.text *
+{
+    margin: 10px;
+}
+
+
+.header
+{ 
+  width: 100%; /* Full width (cover the whole page) */
+  height: 50%; /* Full height (cover the whole page) */
+}
+
+.header h1
+{
+    padding: 0;
+    margin: 0;
+    text-align: match-parent;
+}
+
+
+
+
+.background-image img {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;    
+ 
+    background-color: #39458b;
+     margin: 0;
+    padding: 0;
+    
+    
+   
+    
+    
+}
+
+.logo img
+{
+    width: 10%;
+    border:1px solid white;
+    border-radius:50%;
+}
+
+nav
+{
+    width: 100%;
+}
+
+
+.nav-bar1
+{
+    position: relative;
+  text-align: center;
+ 
+    
+    
+}
+
+
+
+
+.logo
+{
+    display: flex;
+    color: white;
+    position: absolute;
+  top: 20px;;
+  left: 16px;
+   
+}
+
+
+
+.contact-button
+{
+   
+    display: flex;
+    position: absolute;
+  top: 8px;
+  right: 16px;
+    
+    
+    
+    
+}
+button
+{
+    background-color: #39458b;
+   
+    
+    padding: 20px;
+    border-radius: 75px;
+    border: 0px;
+    color: white;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+
+
+button:hover{
+    color:#1131ea;;
+     transition-delay: 0.5s;
+    background: white;
+}
+
+
+
+.List-item
+{
+   
+    
+   
+
+    
+   
+    
+}
+
+ul li a
+{
+    list-style-type: none;
+     
+    
+   
+    
+}
+li a
+{
+    text-decoration: none;
+    margin: 20px;
+   color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+.paragarph-one
+
+{
+   position: absolute;
+  top: 120px;
+  left: 30px;
+  color: solid black;
+    
+    
+}
+
+.paragarph-two
+
+{
+   position: absolute;
+  top: 150px;
+  left: 30px;
+  color: black;
+    font-size: 1rem;
+    color: solid black;
+    
+    
+}
+
+
+
+.paragarph-three
+{
+    position: absolute;
+  top: 250px;
+  left: 30px;
+  color: solid black;
+    font-size: 0.5rem;
+     
+    
+    
+}
+
+
+
+
+
+ /* section two */
+
+
+.Section-two-section
+{
+     margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.section-two
+{
+    background: red;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(208, 216, 234, 0.25);
+    color:#242a56;
+    padding:4rem 2rem;
+   
+}
+
+.container .box{
+    padding:2rem;
+    margin: 2rem;
+    height:170px;
+    border-radius: 20px;
+}
+
+.header h1
+{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 2.3em;
+    padding:1rem;
+}
+
+.header p
+{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+
+
+
+
+
+
+
+.container
+{
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+
+.container div
+{
+    background-color: #ffffff;
+        padding: 22px 22px 22px 22px;
+        margin: 10px 10px 10px 10px
+}
+
+
+
+
+.section-three-head h1
+{
+    padding: 2rem;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+
+}
+
+.section-three-head p{
+    text-transform: capitalize;
+    line-height: 1.4em;
+}
+
+
+
+.section-three-head
+{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container-images 
+{
+   display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+               padding: 10px;
+    margin: 40px;
+                   
+   
+    
+   
+}
+
+
+div img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+.exlpore
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.Explore-buuton
+{
+    border-radius: 4px;
+    padding: 20px 40px 20px 40px;
+    margin: 10px;
+}
+
+
+
+.git-hub
+{
+   display: flex;
+    justify-content: center;
+}
+
+.git-hub img
+{
+    
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+
+
+
+.container-footer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    color: #f0caca;
+    font-size: 1rem;
+     background-color: #242a56;
+     min-height: 30vh;
+    
+    
+}
+
+.footer-links{
+    display:flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    margin:0.3rem;
+    font-size: 1.7em;
+}
